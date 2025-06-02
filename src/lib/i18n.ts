@@ -12,5 +12,5 @@ register("ja", () => import("$i18n/ja.json"));
 
 init({
 	fallbackLocale: fallback,
-	initialLocale: browser ? window.navigator.language : fallback,
+	initialLocale: fallback,
 });
